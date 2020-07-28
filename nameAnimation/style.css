@@ -1,0 +1,35 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Zilla+Slab+Highlight&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Zilla Slab Highlight', cursive;
+    /* font-family: 'Poiret One', cursive; */
+}
+
+h1 {
+    color: #373D20;
+    font-size: 8rem;
+    text-align: center;
+    line-height: 100vh;
+}
+
+span {
+    opacity: 0; 
+    transition: all 10s infinite;
+    
+}
+
+span.fade {
+    opacity: 1;
+    transform: translateY(0px);
+    
+}
+
